@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[requirements]
+python_version = "3.6"
+
+[packages]
+fusepy = "*"
+
+[dev-packages]
+"autopep8" = "*"
+"pep8" = "*"
+pylint = "*"
+rope = "*"

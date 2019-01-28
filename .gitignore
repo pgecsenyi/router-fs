@@ -1,0 +1,6 @@
+.vscode/settings.json
+
+/data
+!/data/config_sample.json
+
+*.pyc

@@ -1,0 +1,14 @@
+{
+    "editor.tabSize": 4,
+    "python.autoComplete.extraPaths": [
+      "${workspaceRoot}"
+    ],
+    "python.formatting.autopep8Path": "~/.virtualenvs/transformer-00000000/bin/autopep8",
+    "python.formatting.provider": "autopep8",
+    "python.linting.pylintArgs": [
+      "--rcfile=${workspaceRoot}/.pylintrc"
+    ],
+    "python.linting.pylintPath": "~/.virtualenvs/transformer-00000000/bin/pylint",
+    "python.pythonPath": "~/.virtualenvs/transformer-00000000/bin/python",
+    "python.venvPath": "~/.virtualenvs"
+}
