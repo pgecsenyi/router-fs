@@ -1,10 +1,10 @@
-# FST
+# Router FS
 
-FST (File System Transformer) allows you to create different views for directories. It can transform paths on-the-fly based on regular expressions.
+Router FS allows you to create different views for directories. It can transform paths on-the-fly based on regular expressions.
 
 ## How does it work?
 
-FST makes use of FUSE to implement filesystems in user mode that provide access to your files through paths defined in the configuration file. It can handle several different source directories and mount points simultaneously.
+The application makes use of FUSE to implement filesystems in user mode that provide access to your files through paths defined in the configuration file. It can handle several different source directories and mount points simultaneously.
 
 Each source directory and the corresponding mount point constitutes a _volume_. For each volume you can declare regular expression pairs that define how file paths will be transformed.
 
