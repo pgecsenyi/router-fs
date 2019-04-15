@@ -1,14 +1,15 @@
 {
+    "editor.formatOnSave": true,
     "editor.tabSize": 4,
     "python.autoComplete.extraPaths": [
-      "${workspaceRoot}"
+        "${workspaceRoot}"
     ],
-    "python.formatting.autopep8Path": "~/.virtualenvs/transformer-00000000/bin/autopep8",
+    "python.formatting.autopep8Path": "~/.virtualenvs/src-00000000/bin/autopep8",
     "python.formatting.provider": "autopep8",
     "python.linting.pylintArgs": [
-      "--rcfile=${workspaceRoot}/.pylintrc"
+        "--rcfile=${workspaceRoot}/.pylintrc"
     ],
-    "python.linting.pylintPath": "~/.virtualenvs/transformer-00000000/bin/pylint",
-    "python.pythonPath": "~/.virtualenvs/transformer-00000000/bin/python",
+    "python.linting.pylintPath": "~/.virtualenvs/src-00000000/bin/pylint",
+    "python.pythonPath": "~/.virtualenvs/src-00000000/bin/python",
     "python.venvPath": "~/.virtualenvs"
 }
